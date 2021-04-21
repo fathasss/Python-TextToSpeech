@@ -1,4 +1,7 @@
 # Python-TextToSpeech
+
+Daha kolay dil ve telaffuz öğrenebilmek için geliştirdim 😂
+
 Girilen Türkçe metni 4 farklı dilde sesli çıktılarını verir.
 
 Şimdilik sadece 4 adet dili desteklemektedir. 
