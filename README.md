@@ -23,7 +23,7 @@ Windows->cmd->cd [proje_dosya_yolu]->python main.py
 2.Girilen metnin yazılı çıktısı da eklendi<br>
 3.Hem konuşarak telaffuz hemde yazılı olarak görüntülenmesi sağlandı.
 
-# NEXT GÜNCELLEME
+# NEXT UPDATE
 1.Daha fazla dil seçeneği<br>
 2.Arayüz tasarımı<br>
 
