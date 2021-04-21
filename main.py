@@ -17,18 +17,21 @@ translator = google_translator()
 textTranslaterENG = translator.translate(text, lang_src='tr' ,lang_tgt='en')
 textTranslaterFR = translator.translate(text, lang_src='tr' ,lang_tgt='fr')
 textTranslaterGER = translator.translate(text, lang_src='tr' ,lang_tgt='de')
+textTranslaterRU = translator.translate(text, lang_src='tr' ,lang_tgt='ru')
 
 #Metni ses dönüştür.
 speech_tr= gTTS(text=text, lang='tr', slow=False)
 speech_en= gTTS(text=textTranslaterENG, lang='en', slow=False)
 speech_de= gTTS(text=textTranslaterGER, lang='de', slow=False)
 speech_fr= gTTS(text=textTranslaterFR, lang='fr', slow=False)
+speech_ru = gTTS(text=textTranslaterRU, lang='ru', slow=False)
 
 #Ses dosyalarını kaydet
 speech_tr.save("mp3/tr.mp3")
 speech_en.save("mp3/en.mp3")
 speech_de.save("mp3/de.mp3")
 speech_fr.save("mp3/fr.mp3")
+speech_ru.save("mp3/ru.mp3")
 
 #Desteklenen dilleri konsola yaz.
 os.system("echo Listeden dil seciniz.")
@@ -36,6 +39,7 @@ os.system("echo 1.Turkish")
 os.system("echo 2.English")
 os.system("echo 3.French")
 os.system("echo 4.German")
+os.system("echo 5.Russian")
 
 #Dil seçimi için veri al.
 out = int(input("Secmek istediginiz dilin numarasi nedir ? ..... "))
@@ -57,4 +61,7 @@ if out==4:
     print("Almanca")
     print(textTranslaterGER)
     os.system("start mp3/de.mp3")
-# %%
+if out==5:
+    print("Rusça")
+    print(textTranslaterRU)
+    os.system("start mp3/ru.mp3")
