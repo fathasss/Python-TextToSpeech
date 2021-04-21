@@ -10,7 +10,7 @@ Aynı zamanda metnin yazılı olarak da çevirisini verir.
 
 Kullanmak için repoyu indirip çalıştırın.
 
-Bu uygulama Visual Studio Code' da yapılmıştır.
+Bu uygulama Visual Studio Code kullanılarak yapılmıştır.
 
 os, gTTS ve google_translate_new kütüphanelerini kullanarak yapılmıştır.
 
