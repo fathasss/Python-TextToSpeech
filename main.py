@@ -11,17 +11,20 @@ app = Tk()
 
 def transItem():
     transText = customEntry.get()
+    
     #Girilen türkçe metnin çevirisni yap.
     textTranslaterENG = translator.translate(transText, lang_src='tr' ,lang_tgt='en')
     textTranslaterFR = translator.translate(transText, lang_src='tr' ,lang_tgt='fr')
     textTranslaterGER = translator.translate(transText, lang_src='tr' ,lang_tgt='de')
     textTranslaterRU = translator.translate(transText, lang_src='tr' ,lang_tgt='ru')
+    
     #Metni ses dönüştür.
     speech_tr = gTTS(text=transText, lang='tr', slow=False)
     speech_en = gTTS(text=textTranslaterENG, lang='en', slow=False)
     speech_de = gTTS(text=textTranslaterGER, lang='de', slow=False)
     speech_fr = gTTS(text=textTranslaterFR, lang='fr', slow=False)
     speech_ru = gTTS(text=textTranslaterRU, lang='ru', slow=False)
+    
     #Ses dosyalarını kaydet
     speech_tr.save("mp3/tr.mp3")
     speech_en.save("mp3/en.mp3")
