@@ -28,5 +28,6 @@ Windows->cmd->cd [proje_dosya_yolu]->python main.py
 1.Daha fazla dil seçeneği eklenecek.<br>
 2.Arayüz tasarım daha düzenli ve tasarımsal anlamda güzel olacak.<br>
 
-![ekran](https://user-images.githubusercontent.com/32196738/115568428-f2755e80-a2c4-11eb-81b3-88a047bd97cb.PNG)
+![arayuz](https://user-images.githubusercontent.com/32196738/115695784-c3192d00-a36a-11eb-872e-133dc2f8ea79.PNG)
+
 
