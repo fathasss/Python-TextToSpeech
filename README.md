@@ -21,11 +21,13 @@ Windows->cmd->cd [proje_dosya_yolu]->python main.py
 # UPDATE NOTES
 1.Rusça dili eklendi<br>
 2.Girilen metnin yazılı çıktısı da eklendi<br>
-3.Hem konuşarak telaffuz hemde yazılı olarak görüntülenmesi sağlandı.
+3.Hem konuşarak telaffuz hemde yazılı olarak görüntülenmesi sağlandı.<br>
+4.Arayüz tasarımı✔<br>
+&nbsp;&nbsp;&nbsp;Tkinter ile arayüz eklendi.<br>
 
 # NEXT UPDATE
-1.Daha fazla dil seçeneği<br>
-2.Arayüz tasarımı<br>
+1.Daha fazla dil seçeneği eklenecek.<br>
+2.Arayüz tasarım daha düzenli ve tasarımsal anlamda güzel olacak.<br>
 
 ![ekran](https://user-images.githubusercontent.com/32196738/115568428-f2755e80-a2c4-11eb-81b3-88a047bd97cb.PNG)
 
