@@ -18,13 +18,13 @@ Windows->cmd->cd [proje_dosya_yolu]->python main.py
 
 ![mainpy](https://user-images.githubusercontent.com/32196738/115255326-d2179980-a136-11eb-8773-6ae41d61adea.PNG)
 
-# UPDATE NOTES
+## UPDATE NOTES
 1.Rusça dili eklendi.✔<br>
 2.Girilen metnin yazılı çıktısı da eklendi.✔<br>
 3.Hem konuşarak telaffuz hemde yazılı olarak görüntülenmesi sağlandı.✔<br>
 4.Arayüz tasarımı eklendi.&nbsp;(Tkinter ile arayüz eklendi.)✔<br>
 
-# NEXT UPDATE
+## NEXT UPDATE
 1.Daha fazla dil seçeneği eklenecek.<br>
 2.Arayüz tasarım daha düzenli ve tasarımsal anlamda güzel olacak.<br>
 
